@@ -1,0 +1,269 @@
+* {
+    padding: 4px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    width: 1500px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Site name styling */
+  .navbar .site-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  #india {
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #FF9933, #FFFFFF, #138808);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  /* Navbar links styling */
+  .navbar .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 15px;
+    transition: background 0.3s;
+  }
+
+  .navbar .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+
+  /* Register button styling */
+  .navbar .nav-links .register-btn {
+    background-color: #21A300;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+
+  .navbar .nav-links .register-btn:hover {
+    background-color: #1b8500;
+  }
+
+
+  /* Hero Section */
+  
+
+  #row {
+    color: white;
+    display: flex;
+    width: 1500px;
+    background: linear-gradient(90deg, #EAEAEA, #21A300, #21A300);
+    padding: 25px 15px;
+    border-radius: 10px;
+  }
+
+  .col-5 {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  #lo {
+    justify-content: center;
+    display: flex;
+    
+  }
+
+  .col-7 {
+    text-align: center;
+    display: grid;
+    align-content: center;
+
+  }
+
+  #logo {
+    width: 250px;
+    height: 250px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  /* User - Registration Section */
+
+  #reg {
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 1500px;
+    padding: 25px 15px;
+    border-radius: 10px;
+  }
+
+  h4 {
+    text-align: left;
+    color: red;
+    font-weight: bold;
+  }
+
+  #h2 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  #list {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  /* How to Vote */
+
+  #vote {
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 1500px;
+    background-color: #EAEAEA;
+    padding: 25px 15px;
+    border-radius: 10px;
+  }
+
+  #vo {
+    text-align: left;
+  }
+
+  /* Application */
+
+  #cli {
+    background-color: #21A300;
+    color: white;
+    width: 250px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #qr {
+    color: black;
+    border: 2px solid #21A300;
+    width: 250px;
+  }
+
+  #qrc {
+    color: black;
+
+  }
+
+  /* Footer */
+
+  #footer {
+    background-color: black;
+    color: white;
+    padding: 25px;
+  }
+
+  #fot {
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #fotul {
+    text-align: center;
+  }
+
+  h5 {
+    text-align: center;
+  }
+
+  #fotim {
+    text-align: left;
+  }
+
+
+
+  /* Contact Form Container */
+  .contact-form {
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Form Heading */
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  /* Form Fields */
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  /* Submit Button */
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #21A300;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .contact-form button:hover {
+    background-color: #00911f;
+  }
+
+
+
+
+
+
+
+  
